@@ -5,9 +5,9 @@ Predicting stock prices is a core component of financial analytics and algorithm
 ## Overview
 `DATA/`: CSVs of monthly stock price data from Alpha Vantage (1999-2025).
 
-`SCRIPTS\`: Python code for API data pulling, preprocessing, model training, and evaluation.
+`SCRIPTS/`: Python code for API data pulling, preprocessing, model training, and evaluation.
 
-`OUTPUT\`: Plots of predicted vs actual prices and model evaluation
+`OUTPUT/`: Plots of predicted vs actual prices and model evaluation
 
 `README.md`: This document
 
@@ -15,4 +15,4 @@ Predicting stock prices is a core component of financial analytics and algorithm
 
 ` RUBRIC.pdf`: Assignment criteria
 
-`MATERIALS\`: directory containing references for deeper understanding
+`MATERIALS/`: directory containing references for deeper understanding
