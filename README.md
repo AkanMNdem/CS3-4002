@@ -16,3 +16,13 @@ Predicting stock prices is a core component of financial analytics and algorithm
 ` RUBRIC.pdf`: Assignment criteria
 
 `MATERIALS/`: directory containing references for deeper understanding
+## How to Run
+1. Clone the repository into a directory of your choosing or create a new project directory
+2. Ensure you have a Python version higher than 3, preferably 3.10
+3. Install the dependencies necessary: `pandas`, `requests`, `matplotlib`, `time`, `scipy`, `scikit-learn`, `requests`, `os`
+4. *Optional*: Start a virtual environment using `python3 -m venv venv` then `source venve/bin/activate`. You may install depencendies afterward
+5. Run `data_loading.py` and enter the stock tickers of your choice (must be stocks not ETFs)
+6. Execute `data_preprocessing.py` to clean and normalize data
+7. Run `model_training.py` to train and test the linear regression model, generate visualizations, and evaluate the model.
+
+All outputs will be save to the `OUTPUT/` directory.
